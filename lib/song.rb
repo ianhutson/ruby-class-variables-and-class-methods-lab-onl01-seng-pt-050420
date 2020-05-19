@@ -22,7 +22,7 @@ end
 def self.artists
   @@artists.uniq
 end
-ef self.artist_count
+def self.artist_count
     artist_count = {}
     @@artists.each do |artist|
       if artist_count[artist]
@@ -36,6 +36,7 @@ ef self.artist_count
 def self.genres
   @@genres.uniq
 end
+
 def self.genre_count
     genre_count = {}
     @@artists.each do |genre|
@@ -47,4 +48,5 @@ def self.genre_count
     end
     genre_count
   end
+  
 end
