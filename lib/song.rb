@@ -7,3 +7,4 @@ def initialize(name, genre, artist)
   @artist = artist
   @@count += 1
 end
+end
